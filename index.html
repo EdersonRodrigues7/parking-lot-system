@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Park System</title>
+  </head>
+  <body>
+    <label for="vehicleName">Vehicle Name</label>
+    <input
+      type="text"
+      name="vehicleName"
+      id="vehicleName"
+      placeholder="Insert the Vehicle name"
+      autocomplete="off"
+    />
+    <label for="vehiclePlate">License Plate</label>
+    <input
+      type="text"
+      name="vehiclePlate"
+      id="vehiclePlate"
+      placeholder="Insert the License Plate"
+      autocomplete="off"
+    />
+    <button id="register">Register</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Plate</th>
+          <th>Arrival Time</th>
+          <th>Actions</th>
+        </tr>
+        <tbody id="parkingLot"></tbody>
+      </thead>
+    </table>
+    <script src="./script.js"></script>
+  </body>
+</html>
